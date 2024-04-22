@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+*
+{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Merienda", cursive;
+}
+body
+{
+    background-color: #102C57;
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+}
+.left img
+{
+    width: 50px;
+    border-radius: 100px;
+    margin: 20px;
+}
+.center
+{
+    display: flex;
+    flex-direction: row;
+}
+.center a
+{
+    text-decoration: none;
+    color: #FEFAF6;
+    padding: 5px 10px;
+    margin: 30px;
+    display: inline-block;
+    border-radius: 20px;
+    transition: 0.4s ease-out;
+}
+.center a:hover
+{
+    background-color:#FEFAF6 ;
+    color:#102C57 ;
+    font-size: 17px;
+}
+.right
+{
+    margin: 20px;
+    color: #EADBC8;
+}
+.right i
+{
+    transition: 0.4s ease-out;
+}
+.right i:hover
+{
+    background-color:#FEFAF6 ;
+    color:#102C57 ;
+    font-size: 14px;
+    padding: 6px;
+    border-radius: 20px;
+}
+.home
+{
+    text-align: center;
+    margin: 80px;
+    color: #EADBC8;
+}
+.home img
+{
+    
+    width: 250px;
+    border-radius: 80px;
+    transition: 0.5s ease-out;
+}
+.home h1
+{
+    margin: 15px;
+}
+.home a
+{
+    text-decoration: none;
+    color: #EADBC8;
+    margin-top: 20px;
+    padding: 6px 10px;
+    display:inline-block ;
+    border: 1px solid #EADBC8;
+    border-bottom: 3px solid #EADBC8;
+    border-radius: 20px;
+    transition: 0.4s ease-out;
+}
+.home a:hover
+{
+    background-color: #EADBC8;
+    color: #102C57;
+}
+footer
+{
+    background-color: #031125;
+    color: #EADBC8;
+    text-align: center;
+}
+footer i
+{
+   border: 1px solid;
+   padding: 3px 10px;
+   border-radius: 10px;
+   display: inline-block;
+   margin: 10px;
+}
+.phone
+{
+    text-align: center;
+    margin-top: 50px;
+    display: inline-block;
+    margin: 30px;
+}
+.location
+{
+    text-align: center;
+    margin-top: 50px;
+    display: inline-block;
+    margin: 30px;
+
+}
+.website
+{
+    text-align: center;
+    margin-top: 50px;
+    display: inline-block;
+    margin: 30px;
+}

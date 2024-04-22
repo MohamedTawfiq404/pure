@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+        *
+        {
+            padding: 0px;
+            margin: 0px;
+            font-family: "Merienda", cursive;
+        }
+        body
+        {
+            background-color: #102C57;
+        }
+        header
+{
+    display: flex;
+    justify-content: space-between;
+}
+.left img
+{
+    width: 50px;
+    border-radius: 100px;
+    margin: 20px;
+}
+.center
+{
+    display: flex;
+    flex-direction: row;
+}
+.center a
+{
+    text-decoration: none;
+    color: #FEFAF6;
+    padding: 5px 10px;
+    margin: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    transition: 0.4s ease-out;
+}
+.center a:hover
+{
+    background-color:#FEFAF6 ;
+    color:#102C57 ;
+    font-size: 17px;
+}
+.right
+{
+    margin: 20px;
+    color: #EADBC8;
+}
+.right i
+{
+    transition: 0.4s ease-out;
+}
+.right i:hover
+{
+    background-color:#FEFAF6 ;
+    color:#102C57 ;
+    font-size: 14px;
+    padding: 6px;
+    border-radius: 20px;
+}
+.settingbar
+{
+    color: #EADBC8;
+    margin-top: 40px;
+    border: 1px solid;
+    padding: 20px;
+    margin: 10px;
+}
+.settingbar i
+{
+    padding: 10px;
+    margin: 10px 4px;
+}
+.settingbar p
+{
+    transition: 0.2s;
+}
+.settingbar p:hover
+{
+    color:aquamarine;
+}
+
+    </style>
+</head>
+<body>
+
+    <header>
+
+        <div class="left">
+            <a href="./index.html"><img src="./imges/p logo.jpg" alt="logo"></a>
+        </div>
+
+
+        <div class="center">
+            <p><a href="./builder.html">Website Builder</a></p>
+            <p><a href="./setting.html">Settings</a></p>
+        </div>
+
+        <div class="right">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+        
+    </header>
+
+
+    <div class="settingbar">
+
+        <div class="setting">
+            <p><i class="fa-regular fa-credit-card"></i> Payment Methods</p>
+        </div>
+
+        <div class="setting">
+            <p><i class="fa-solid fa-shield-halved"></i> Privacy</p>
+        </div>
+
+        <div class="setting">
+            <p><i class="fa-regular fa-bell"></i> Notifications</p>
+        </div>
+
+        <div class="setting">
+            <p><i class="fa-solid fa-headset"></i> Customers Service</p>
+        </div>
+
+        <div class="setting">
+            <p><i class="fa-solid fa-language"></i> Languages</p>
+        </div>
+
+    </div>
+
+
+    
+</body>
+</html>

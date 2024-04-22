@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offers</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+        *
+        {
+            padding: 0px;
+            margin: 0px;
+            font-family: "Merienda", cursive;
+        }
+        body
+        {
+            background-color: #102C57;
+        }
+        header
+        {
+            display: flex;
+            justify-content: space-between;
+        }
+        .left img
+        {
+            width: 50px;
+            border-radius: 100px;
+            margin: 20px;
+        }
+        .center
+        {
+            display: flex;
+            flex-direction: row;
+        }
+        .center a
+        {
+            text-decoration: none;
+            color: #FEFAF6;
+            padding: 5px 10px;
+            margin: 20px;
+            display: inline-block;
+            border-radius: 20px;
+            transition: 0.4s ease-out;
+        }
+        .center a:hover
+        {
+            background-color:#FEFAF6 ;
+            color:#102C57 ;
+            font-size: 17px;
+        }
+        .right
+{
+    margin: 20px;
+    color: #EADBC8;
+}
+.right i
+{
+    transition: 0.4s ease-out;
+}
+.right i:hover
+{
+    background-color:#FEFAF6 ;
+    color:#102C57 ;
+    font-size: 14px;
+    padding: 6px;
+    border-radius: 20px;
+}
+        .offersGroups
+        {
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            text-align: center;
+            margin: 80px;
+        }
+        .offersGroups .offer
+        {
+            width:200px ;
+            transition: 0.3s ease-out;
+            margin: 20px;
+        }
+        .offersGroups img
+        {
+            width: 270px;
+            height: 30vh;
+            border-radius: 20px;
+        }
+        .offersGroups .offer h2
+        {
+            color: #EADBC8;
+            margin-top: 10px;
+        }
+        .offersGroups .offer p
+        {
+           color: #EADBC8;
+           font-size: smaller;
+           margin: 10px;
+        }
+        .offersGroups .offer button
+        {
+            background-color: #102C57;
+            color: #EADBC8;
+            transition: 0.3s ease-out;
+            border: 1px solid #EADBC8;
+            border-bottom: 3px solid #EADBC8;
+            border-radius: 20px;
+            padding: 3px 6px;
+        }
+        .offersGroups .offer button:hover
+        {
+            background-color: #EADBC8;
+            color: #102C57;
+        }
+        .offersGroups .offer:hover
+        {
+            background-color: #faf9f921;
+            border-radius: 20px;
+            padding: 10px;
+            padding-right: 80px;
+            font-size: large;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+
+        <div class="left">
+            <a href="./index.html"><img src="./imges/p logo.jpg" alt="logo"></a>
+            
+
+        </div>
+
+        <div class="center">
+            <p><a href="./home.html">Home</a></p>
+            <p><a href="./builder.html">Website Builder</a></p>
+            <p><a href="./setting.html">Settings</a></p>
+        </div>
+
+        <div class="right">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+        
+    </header>
+
+    <div class="offersGroups">
+
+
+         
+        <div class="offer">
+            <img src="./imges/pink group.jpg" alt="pink">
+            <h2>Pink Group</h2>
+            <p>37.00<sub>usd</sub>--<s>47.00</s><sub>usd</sub></p>
+            <button>buying</button>
+        </div>
+
+        <div class="offer">
+            <img src="./imges/black group.JPG" alt="pink">
+            <h2>Black Group</h2>
+            <p>39.00<sub>usd</sub>--<s>50.00</s><sub>usd</sub></p>
+            <button>buying</button>
+        </div>
+
+        <div class="offer">
+            <img src="./imges/luxury group.webp" alt="pink">
+            <h2>luxury Group</h2>
+            <p>29.00<sub>usd</sub>--<s>54.00</s><sub>usd</sub></p>
+            <button>buying</button>
+        </div>
+
+
+
+    </div>
+
+    
+</body>
+</html>
